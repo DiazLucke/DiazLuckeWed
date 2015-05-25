@@ -52,7 +52,7 @@ body {
   box-sizing: border-box;
   color:#373737;
   background: #212121;
-  font-size: 16px;
+  font-size: 20px;
   font-family: 'Myriad Pro', Calibri, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
@@ -60,7 +60,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   margin: 10px 0;
-  font-weight: 700;
+  font-weight: 900;
   color:#222222;
   font-family: 'Lucida Grande', 'Calibri', Helvetica, Arial, sans-serif;
   letter-spacing: -1px;
@@ -95,6 +95,7 @@ h6 {
 
 p {
   margin: 10px 0 15px 0;
+  font-weight:bold;
 }
 
 footer p {
@@ -305,18 +306,25 @@ Full-Width Styles
   background: -ms-linear-gradient(top, #373737, #212121);
   background: -o-linear-gradient(top, #373737, #212121);
   background: linear-gradient(top, #373737, #212121);
+  background-image:url('/Users/elguapo2473/Desktop/alternative_web/css/images/couple.jpg');
+  padding-bottom:180px;
+}
+
+#header_wrap h1 {
+  padding-top: 50px;
 }
 
 #header_wrap .inner {
   padding: 50px 10px 30px 10px;
+  top:65px;
 }
 
 #project_title {
   margin: 0;
-  color: #fff;
+  color:#222222;
   font-size: 42px;
   font-weight: 700;
-  text-shadow: #111 0px 0px 10px;
+  /*text-shadow: #111 0px 0px 10px;*/
 }
 
 #project_tagline {
@@ -367,18 +375,25 @@ Full-Width Styles
 }
 
 #main_content_wrap {
-  background: #f2f2f2;
+  background: #C0C0C0 ;
   border-top: 1px solid #111;
   border-bottom: 1px solid #111;
 }
+
 
 #main_content {
   padding-top: 40px;
 }
 
+#main_content_wrap .upcoming h3{
+  color: #212121;
+  border-bottom: 3px solid #111;
+} 
+
 #footer_wrap {
   background: #212121;
 }
+
 
 
 
