@@ -55,7 +55,7 @@ body {
   background: #212121;
   font-size: 16px;
   font-family: 'Myriad Pro', Calibri, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
+  line-height: 1;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -378,11 +378,21 @@ Full-Width Styles
   padding-top: 40px;
 }
 
-#main_content_wrap .inner h3{
+#main_content .events par{/*paragraphs in evenst list*/
+  font-size:18px;
+}
+
+#main_content .events li{/*points in evenst list*/
+  font-size:20px;
+  line-height:1;
+}
+
+#main_content_wrap .inner h3{/*list of events header*/
   color:none;
   padding-top:0px;
   border-top: 3px solid #111;
   border-bottom: 3px solid #111;
+  font-size:25px;
 }
 
 
@@ -392,18 +402,19 @@ Full-Width Styles
   padding-top:0px;
 }
 
-#main_content .in{
+#main_content .in{ /*inner list of events */
   color:none;
-  font-size:20px;
 }
-
-#main_content .in p{
-  padding-top:0px;
-  padding-bottom:0px;
-}
+ 
 
 #footer_wrap {
   background: #212121;
+}
+
+#map-canvas {
+        width: 500px;
+        height: 400px;
+        background-color: #CCC;
 }
 
 
