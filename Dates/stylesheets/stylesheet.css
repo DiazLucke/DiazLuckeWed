@@ -380,6 +380,7 @@ Full-Width Styles
 
 #main_content .events par{/*paragraphs in evenst list*/
   font-size:18px;
+  padding-bottom:10px;
 }
 
 #main_content .events li{/*points in evenst list*/
@@ -412,9 +413,10 @@ Full-Width Styles
 }
 
 #map-canvas {
-        width: 500px;
+        width: 600px;
         height: 400px;
         background-color: #CCC;
+
 }
 
 
