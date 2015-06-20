@@ -307,6 +307,9 @@ Full-Width Styles
   background: -o-linear-gradient(top, #373737, #212121);
   background: linear-gradient(top, #373737, #212121);
 
+
+  background-image:url('../22ee5d1d.png');
+
 /*carbon pattern*/
 /*background:
 linear-gradient(27deg, #151515 5px, transparent 5px) 0 5px,
@@ -391,7 +394,8 @@ background-position: 0 0, 0 0, 40px 70px, 40px 70px, 0 0, 40px 70px;*/
 }
 
 #main_content_wrap {
-  background: #F6F6E0;
+  /*background: #F6F6E0;*/  /*beige background*/
+  background: #F0F0F0 ; /*white background*/
   border-top: 1px solid #111;
   border-bottom: 1px solid #111;
 }
