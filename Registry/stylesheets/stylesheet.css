@@ -270,6 +270,7 @@ Full-Width Styles
   max-width: 640px;
   padding: 20px 10px;
   margin: 0 auto;
+  background-image:url('../blue2.png');
 }
 
 .nav {
@@ -341,6 +342,7 @@ background-position: 0 0, 0 0, 40px 70px, 40px 70px, 0 0, 40px 70px;*/
 
 #header_wrap .inner {
   padding: 50px 10px 30px 10px;
+  background-image:url('../22ee5d1d.png');
 }
 
 #project_title {
@@ -403,6 +405,7 @@ background-position: 0 0, 0 0, 40px 70px, 40px 70px, 0 0, 40px 70px;*/
   background: #F0F0F0 ; /*white background*/
   border-top: 1px solid #111;
   border-bottom: 1px solid #111;
+  background-image:url('../images/fancy.jpg');
 }
 
 #main_content {
@@ -411,6 +414,10 @@ background-position: 0 0, 0 0, 40px 70px, 40px 70px, 0 0, 40px 70px;*/
 
 #main_content ul{
   list-style-type: none;
+}
+
+#footer_wrap .inner{
+  background: #212121;
 }
 
 #footer_wrap {
