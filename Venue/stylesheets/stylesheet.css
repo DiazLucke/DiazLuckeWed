@@ -284,6 +284,11 @@ Full-Width Styles
   background-image:url('../blue2.png');
 }
 
+.nav {
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
 .nav li {
   display: inline;
   font-style: normal;
