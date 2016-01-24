@@ -269,6 +269,8 @@ Full-Width Styles
   max-width: 640px;
   padding: 20px 10px;
   margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
   background-image:url('../images/blue2.png');
 }
 
