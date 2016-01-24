@@ -272,6 +272,7 @@ Full-Width Styles
   max-width: 700px;
   padding: 20px 10px;
   margin: 0 auto;
+  background-image:url('../images/blue2.png');
 }
 
 .nav li {
@@ -309,7 +310,7 @@ Full-Width Styles
   background: -o-linear-gradient(top, #373737, #212121);
   background: linear-gradient(top, #373737, #212121);
   background-image:url('../images/us2.jpg');
-  padding-bottom:180px;
+  padding-bottom:275px;
 }
 
 #header_wrap h1 {
@@ -319,6 +320,7 @@ Full-Width Styles
 #header_wrap .inner {
   padding: 50px 10px 30px 10px;
   top:65px;
+  color:#222222;
 }
 
 #project_title {
@@ -389,6 +391,7 @@ Full-Width Styles
   background: #F0F0F0 ; /*white background*/
   border-top: 2px solid #111;
   border-bottom: 1px solid #111;
+  background-image:url('../images/fancy.jpg');
 }
 
 
@@ -404,6 +407,10 @@ Full-Width Styles
 #Date h2{
   color: #f2f2f2;
   padding-left: 8px;
+}
+
+#footer_wrap .inner{
+  background: #212121;
 }
 
 
