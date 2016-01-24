@@ -272,6 +272,11 @@ Full-Width Styles
   margin: 0 auto;
 }
 
+.nav {
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
 .nav li {
   display: inline;
 }
