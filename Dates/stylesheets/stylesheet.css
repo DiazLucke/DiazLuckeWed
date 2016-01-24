@@ -312,10 +312,12 @@ Full-Width Styles
   background: -ms-linear-gradient(top, #373737, #212121);
   background: -o-linear-gradient(top, #373737, #212121);
   background: linear-gradient(top, #373737, #212121);
+  background-image:url('../22ee5d1d.png');
 }
 
 #header_wrap .inner {
   padding: 50px 10px 30px 10px;
+  background-image:url('../22ee5d1d.png');
 }
 
 #project_title {
